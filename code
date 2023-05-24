@@ -1,0 +1,40 @@
+import random
+a = input("What is your name? ")
+b = random.randint(1,3)
+if b == 1:
+    print("Alex.")
+elif b == 2:
+    print("Madex.")
+else:
+    print("Allen.")
+    
+c = input("What are your favorite shoes?")
+d = random.randint(1,4)
+if d == 1:
+    print("Converse.")
+elif d == 2:
+    print("Puma.")
+elif d == 3:
+    print("Nike")
+else:
+    print("Adidas.")
+    
+e = input("What is your favorite movie to watch? ")
+f = random.randint(1,3)
+if f == 1:
+    print("Batman: the dark knight.")
+elif f == 2:
+    print("Tron: Legacy.")
+else:
+    print("Transformers: revenge of the fallen.")
+    g = input("What is your favorite anime?")
+h = random.randint(1,3)
+if h == 1:
+    print("My hero acadamia.")
+elif h == 2:
+    print("One piece.")
+else:
+    print("Naruto.")
+    
+i = input("I love that show")
+j = input("Bye bye")
